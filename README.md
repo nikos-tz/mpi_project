@@ -11,10 +11,10 @@ We describe our solution in the comments of _distributeByMedian_ and _mainDatase
 \
 In order to run the executables at first we run this command:
 \
-export OMPI_MCA_btl_vader_single_copy_mechanism=none
+`export OMPI_MCA_btl_vader_single_copy_mechanism=none`
 \
 and then:
 \
-mpirun -np p _outputFile.out_
+`mpirun -np [p] [_outputFile.out_]`
 \
 where p is the number of processes we want to use
