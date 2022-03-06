@@ -15,6 +15,6 @@ In order to run the executables at first we run this command:
 \
 and then:
 \
-`mpirun -np [p] [_outputFile.out_]`
+`mpirun -np [p] [outputFile.out]`
 \
 where p is the number of processes we want to use
